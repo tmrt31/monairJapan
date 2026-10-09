@@ -58,10 +58,14 @@ export const companyProfile = [
   },
 ];
 
-/** Entries with an empty `text` are not rendered. Fill in 2024–2026 when ready. */
 export const history: { year: string; text: string }[] = [
-  { year: "2023", text: "モンゴル国M-TRIP社の日本支社として設立（7月18日）" },
-  { year: "2024", text: "" },
-  { year: "2025", text: "" },
-  { year: "2026", text: "" },
+  { year: "2023", text: "7月18日　MON AIR JAPAN株式会社 設立" },
+  {
+    year: "2025",
+    text: "3月　本社を大阪府貝塚市の株式会社コージツ内に移転\n11月　株式会社コージツがMON AIR JAPAN株式会社に資本参加",
+  },
+  {
+    year: "2026",
+    text: "5月　MIATモンゴル航空 正規代理店契約締結\n10月　東京支店を秋葉原に開設",
+  },
 ];

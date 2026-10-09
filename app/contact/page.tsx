@@ -34,7 +34,7 @@ export default function ContactPage() {
             <dd><a href={`tel:${site.telHref}`}>{site.tel}</a></dd>
             <dt>FAX</dt>
             <dd>{site.fax}</dd>
-            <dt>WEB</dt>
+            <dt>MAIL</dt>
             <dd><a href={`mailto:${site.email}`}>{site.email}</a></dd>
             <dt>FACEBOOK</dt>
             <dd>

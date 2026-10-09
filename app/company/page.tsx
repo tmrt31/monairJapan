@@ -43,7 +43,7 @@ export default function CompanyPage() {
               {entries.map((h) => (
                 <li key={h.year}>
                   <span className="year">{h.year}</span>
-                  <span>{h.text}</span>
+                  <span className="history__events">{h.text}</span>
                 </li>
               ))}
             </ul>

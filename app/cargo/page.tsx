@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import ContactBand from "@/components/ContactBand";
+import CargoCoverflow from "@/components/CargoCoverflow";
 
 export const metadata: Metadata = {
   title: "航空貨物",
@@ -19,7 +20,7 @@ export default function CargoPage() {
 
       <section className="section">
         <div className="wrap">
-          <div className="split">
+          <div className="split split--center">
             <div className="prose">
               <p>
                 近年の国際情勢の変化により、陸路・海路における通過国の制限や輸送期間の長期化が世界的な課題となっています。特に日本・モンゴル間においては、生鮮食品や精密機械、医療機器、医薬品など、厳格な温度管理や高度な安全性が求められるお荷物、そして緊急を要する貨物のスムーズな輸送が極めて重要です。弊社では、お客様や企業様の多様なニーズに応え、国内輸送から複雑な輸出入手続きまでを一気通貫でサポート。安全かつ迅速な航空貨物輸送サービスを提供しております。
@@ -29,20 +30,7 @@ export default function CargoPage() {
               </p>
             </div>
             <div className="split__media">
-              <div className="thumbs">
-                <Image
-                  src="/images/cargo-terminal.png"
-                  alt="空港の貨物ターミナルでカートに積まれた荷物"
-                  width={187}
-                  height={125}
-                />
-                <Image
-                  src="/images/cargo-aircraft.png"
-                  alt="貨物機への積み込み作業"
-                  width={136}
-                  height={92}
-                />
-              </div>
+              <CargoCoverflow />
             </div>
           </div>
         </div>
